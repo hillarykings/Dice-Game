@@ -23,17 +23,17 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
 
     //2. Display the result
     let diceDom = document.querySelector('.dice');
-    // let diceDom2 = document.querySelector('#dice');
+    let diceDom2 = document.querySelector('#dice');
     diceDom.style.display = 'block';
     diceDom2.style.display = 'block';
     diceDom.src = 'dice-' + dice + '.png';
-    // diceDom2.style.display = 'block';
-    // diceDom2.src =  'dice-' + dice2 + '.png';
+    diceDom2.style.display = 'block';
+    diceDom2.src =  'dice-' + dice2 + '.png';
 
     //3. Update the round score if the rolled number is not 1
-    if(dice !== 1) {
+    if(dice !== 1 || dice2 !== 1) {
         //Add score
-        roundScore += dice;
+        roundScore += dice + dice2;
         document.querySelector('#current-' + activePlayer).textContent = roundScore;
     } else {
         nextPlayer()
