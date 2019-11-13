@@ -26,6 +26,13 @@ body {
     color: #555;
 }
 
+.rules-of-the-game {
+    text-align: center;
+    padding: 40px;
+    line-height: 1.5em;
+    color: #fff;
+}
+
 .wrapper {
     width: 1000px;
     position: absolute;
