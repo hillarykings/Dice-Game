@@ -181,7 +181,7 @@ i {
 #set-final-score {
     width: 180px;
     padding: 20px 20px;
-    color: #555;
+    color: ;
     border: 1px solid #5e5e5e;
     text-transform: uppercase;
     font-weight: 100;
@@ -393,6 +393,18 @@ i {
 
 .player-current-score {
     font-size: 25px;
+}
+
+#set-final-score {
+    width: 180px;
+    padding: 20px;
+    color: ;
+    border: 1px solid #5e5e5e;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 16px;
+    text-align: center;
+
 }
 
   
